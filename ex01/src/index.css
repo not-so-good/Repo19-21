@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+h2 {
+  text-align: center;
+  font-family: monospace;
+}
+body {
+  height: 100%;
+  width: 100%;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+.textareaDiv {
+  margin: 0 auto;
+  text-align: center;
+  width: 90%;
+  height: 40%;
+  padding-bottom: 20px;
+}
+.textArea {
+  width: 80%;
+  height: 100%;
+  background-color: rgb(220, 248, 248, 0.5);
+  color: rgb(0, 217, 255);
+  border: 2px solid rgb(112, 206, 250);
+  font-size: 24px;
+}
+.keyboardDiv {
+  width: 73%;
+  height: 414px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(201, 191, 191);
+  border: 1px solid black;
+  margin: 0 auto;
+}
+button {
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  font-size: 100%;
+  color: white;
+  border: 0;
+  margin: 1px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: rgba(105, 103, 103, 0.274);
+}
+.flex-wrapper-0 {
+  flex-direction: column;
+  float: left;
+  height: 100%;
+  width: 100%;
+}
+.flex-wrapper-1 {
+  flex-direction: row;
+  float: left;
+  width: 83%;
+  height: 100%;
+}
+.flex-container-1 {
+  display: flex;
+  width: 100%;
+}
+.flex-container-2 {
+  display: flex;
+  width: 100%;
+}
+.flex-container-3 {
+  width: 100%;
+}
+#backSpace {
+  width: 16.5%;
+  height: 98%;
+}
+.flex-wrapper-2 {
+  flex-direction: column;
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+.flex-wrapper-3 {
+  flex-direction: row;
+  float: left;
+  width: 75%;
+}
+.flex-container-4 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.flex-container-5 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.flex-wrapper-4 {
+  width: 100%;
+  height: 100%;
+}
+
+#caps-lock {
+  width: 24.5%;
+}
+#shift {
+  width: 24.5%;
+}
+#space {
+  float: left;
+  margin: 1;
+  width: 68%;
+}
+#ok {
+  width: 31%;
+}
+#Enter {
+  width: 100%;
+  height: 50%;
+}

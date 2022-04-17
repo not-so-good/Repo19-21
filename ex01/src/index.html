@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Virtual keyboard</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <h2>Virtual QWERTY keyboard</h2>
+    <div class="container">
+      <div class="textareaDiv">
+        <textarea
+          id="textArea"
+          class="textArea"
+          placeholder="TEXT AREA"
+        ></textarea>
+      </div>
+      <div class="keyboardDiv">
+        <div class="flex-wrapper-0">
+          <div class="flex-wrapper-1">
+            <div class="flex-container-1">
+              <button id="1" onclick="btnClick(this.id)">1</button>
+              <button id="2" onclick="btnClick(this.id)">2</button>
+              <button id="3" onclick="btnClick(this.id)">3</button>
+              <button id="4" onclick="btnClick(this.id)">4</button>
+              <button id="5" onclick="btnClick(this.id)">5</button>
+              <button id="6" onclick="btnClick(this.id)">6</button>
+              <button id="7" onclick="btnClick(this.id)">7</button>
+              <button id="8" onclick="btnClick(this.id)">8</button>
+              <button id="9" onclick="btnClick(this.id)">9</button>
+              <button id="0" onclick="btnClick(this.id)">0</button>
+            </div>
+            <div class="flex-container-2">
+              <button id="q" onclick="btnClick(this.id)">q</button>
+              <button id="w" onclick="btnClick(this.id)">w</button>
+              <button id="e" onclick="btnClick(this.id)">e</button>
+              <button id="r" onclick="btnClick(this.id)">r</button>
+              <button id="t" onclick="btnClick(this.id)">t</button>
+              <button id="y" onclick="btnClick(this.id)">y</button>
+              <button id="u" onclick="btnClick(this.id)">u</button>
+              <button id="i" onclick="btnClick(this.id)">i</button>
+              <button id="o" onclick="btnClick(this.id)">o</button>
+              <button id="p" onclick="btnClick(this.id)">p</button>
+            </div>
+          </div>
+          <div class="flex-container-3"></div>
+          <button id="backSpace" onclick="backSpace()">Back Space</button>
+        </div>
+        <div class="flex-wrapper-2">
+          <div class="flex-wrapper-3">
+            <div class="flex-container-4">
+              <button id="a" onclick="btnClick(this.id)">a</button>
+              <button id="s" onclick="btnClick(this.id)">s</button>
+              <button id="d" onclick="btnClick(this.id)">d</button>
+              <button id="f" onclick="btnClick(this.id)">f</button>
+              <button id="g" onclick="btnClick(this.id)">g</button>
+              <button id="h" onclick="btnClick(this.id)">h</button>
+              <button id="j" onclick="btnClick(this.id)">j</button>
+              <button id="k" onclick="btnClick(this.id)">k</button>
+              <button id="l" onclick="btnClick(this.id)">l</button>
+            </div>
+            <div class="flex-container-5">
+              <button id="z" onclick="btnClick(this.id)">z</button>
+              <button id="x" onclick="btnClick(this.id)">x</button>
+              <button id="c" onclick="btnClick(this.id)">c</button>
+              <button id="v" onclick="btnClick(this.id)">v</button>
+              <button id="b" onclick="btnClick(this.id)">b</button>
+              <button id="n" onclick="btnClick(this.id)">n</button>
+              <button id="m" onclick="btnClick(this.id)">m</button>
+              <button id="-" onclick="btnClick(this.id)">-</button>
+              <button id="_" onclick="btnClick(this.id)">_</button>
+            </div>
+          </div>
+          <div class="flex-container-6">
+            <button id="caps-lock" onclick="capsLock()">Caps Lock</button>
+            <button id="shift" onclick="shiftf()">Shift</button>
+          </div>
+        </div>
+        <div class="flex-wrapper-4">
+          <button id="space" onclick="space()">Space</button>
+          <button id="ok" onclick="btnOk()">Ok</button>
+          <button id="Enter" onclick="enter()">Enter</button>
+        </div>
+      </div>
+    </div>
+    <script src="../src/index.js"></script>
+  </body>
+</html>
